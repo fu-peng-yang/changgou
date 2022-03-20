@@ -1,0 +1,28 @@
+server:
+  port: 18086
+eureka:
+  client:
+    service-url:
+      defaultZone: http://127.0.0.1:7001/eureka
+  instance:
+    prefer-ip-address: true
+feign:
+  hystrix:
+    enabled: false
+spring:
+  thymeleaf:
+    cache: false  #模板不缓存
+  application:
+    name: web-search
+  main:
+    allow-bean-definition-overriding: true
+hystrix:
+    command:
+      default:
+        execution:
+          isolation:
+            thread:
+              timeoutInMilliseconds: 100000
+#超时配置
+ribbon:
+  ReadTimeout: 300000

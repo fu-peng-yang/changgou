@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="FindBugsConfigurable">
+    <option name="make" value="true" />
+    <option name="effort" value="default" />
+    <option name="priority" value="Medium" />
+    <option name="excludeFilter" value="" />
+  </component>
+  <component name="MavenProjectsManager">
+    <option name="originalFiles">
+      <list>
+        <option value="$PROJECT_DIR$/changgou-parent/pom.xml" />
+        <option value="$PROJECT_DIR$/code-template-master/pom.xml" />
+        <option value="$PROJECT_DIR$/code-template/pom.xml" />
+        <option value="$PROJECT_DIR$/changgou-parent/changgou-service/changgou-service-goods/pom.xml" />
+        <option value="$PROJECT_DIR$/changgou-parent/changgou-service/changgou-service-file/pom.xml" />
+        <option value="$PROJECT_DIR$/changgou-parent/changgou-service/pom.xml" />
+        <option value="$PROJECT_DIR$/changgou-parent/changgou-web/pom.xml" />
+        <option value="$PROJECT_DIR$/changgou-parent/changgou-service/changgou-service-content/pom.xml" />
+        <option value="$PROJECT_DIR$/changgou-parent/changgou-service/changgou-service-canal/pom.xml" />
+        <option value="$PROJECT_DIR$/springboot-thymeleaf/pom.xml" />
+        <option value="$PROJECT_DIR$/fescar1-parent/pom.xml" />
+        <option value="$PROJECT_DIR$/fescar-parent/pom.xml" />
+        <option value="$PROJECT_DIR$/eureka-cluster/pom.xml" />
+        <option value="$PROJECT_DIR$/eureka-cluster/eureka-server1/pom.xml" />
+        <option value="$PROJECT_DIR$/eureka-cluster/eureka-server2/pom.xml" />
+        <option value="$PROJECT_DIR$/changgou-parent/changgou-web/changgou-backstage-web/pom.xml" />
+        <option value="$PROJECT_DIR$/fescar1-parent/fescar1-account/pom.xml" />
+        <option value="$PROJECT_DIR$/changgou-parent/changgou-web/changgou-reception-web/pom.xml" />
+        <option value="$PROJECT_DIR$/fescar1-parent/fescar1-api/pom.xml" />
+        <option value="$PROJECT_DIR$/fescar1-parent/fescar1-business/pom.xml" />
+        <option value="$PROJECT_DIR$/fescar1-parent/fescar1-transaction/pom.xml" />
+        <option value="$PROJECT_DIR$/fescar1-parent/fescar1-storage/pom.xml" />
+        <option value="$PROJECT_DIR$/fescar1-parent/fescar1-users/pom.xml" />
+        <option value="$PROJECT_DIR$/eureka-cluster/eureka-server3/pom.xml" />
+      </list>
+    </option>
+    <option name="ignoredFiles">
+      <set>
+        <option value="$PROJECT_DIR$/changgou-parent/changgou-service-seckill/pom.xml" />
+      </set>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" project-jdk-name="1.8.0_301" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/out" />
+  </component>
+  <component name="SuppressionsComponent">
+    <option name="suppComments" value="[]" />
+  </component>
+</project>

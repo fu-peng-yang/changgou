@@ -1,0 +1,18 @@
+spring:
+  thymeleaf:   # ctrl+F12 搜索
+    cache: false  # ctrl+F9  编辑 idea 即可查看修改后的浏览器页面
+#kibana   http://192.168.211.132:5601
+#F12  查询
+#右键包文件夹    ctrl+alt+o   导入包
+#搜索类    ctrl+n    ctrl+alt+n
+#搜索   ctrl+shift+r
+#ctrl+alt+b  查看子类
+#右键项目ctrl+alt+o  一起导入包
+#ctrl + F12   F12 查看本类方法树
+#ctrl + alt +ｌ　整理代码　　　
+#ctrl + alt + m  方法抽取
+#ctrl　+ d   复制前行到下一行
+#alt长按 +鼠标左键  选取多行要复制的代码 进行复制  编辑操作
+#ctrl + alt + t  捕获异常
+#ctrl + x 删除
+#ctrl + F12  查看类中的方法

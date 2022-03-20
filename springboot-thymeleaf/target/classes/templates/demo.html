@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Thymeleaf模板</title>
+</head>
+<body>
+<div>
+hellossddd
+<h1 th:text="${message}"></h1>
+
+ th:action  指定表单提交的路径
+<form id="login-form" th:action="@{/test/hello}">
+    <button>提交</button>
+</form>
+</div>
+<div>
+<table>
+    <tr>
+        <td>下标</td>
+        <td>id</td>
+        <td>name</td>
+        <td>address</td>
+    </tr>
+    <tr th:each="user,userSta:${uList}">
+        <td th:text="${userSta.count}"></td>
+        <td th:text="${user.id}"></td>
+        <td th:text="${user.name}"></td>
+        <td th:text="${user.address}"></td>
+    </tr>
+</table>
+</div>
+<div>
+    读取Map:2中方式<br/>
+    1:知道Map的Key,直接根据Key获取数据<br/>
+    2:不知道Map的Key,使用循环的方式获取Key,然后获取数据<br/>
+    <h5>方式1</h5>
+    <div>
+        获取key=No的值:<span th:text="${dataMap.No}"></span>
+        获取key=Address的值:<span th:text="${dataMap.Address}"></span>
+    </div>
+    <h5>方式2</h5>
+    <div th:each="map:${dataMap}">
+        <span th:text="${map.key}"></span>:
+
+        <span th:text="${map.value}"></span>
+    </div>
+    <div>
+        Date数据获取
+        <div>
+            <span th:text="${#dates.format(now,'yyyy-MM-dd hh:mm:ss')}"></span>
+        </div>
+    </div>
+    <div>
+        <!--unless: 条件不成立时  输出指定数据-->
+        <span th:if="${age>=18}">成年人</span>
+        <span th:unless="${age<18}">成年人</span>
+    </div>
+</div>
+<div>
+    下面是引入的一个公共模块
+    <div>
+        <div id="A" th:include="footer::copy"></div>
+    </div>
+</div>
+
+
+
+</table>
+</body>
+</html>
